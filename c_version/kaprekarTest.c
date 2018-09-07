@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
   printf("Number of tests passed: %d\n", numCorrect);
   printf("Number of tests failed: %d\n", numWrong);
   double percentCorrect = (double) numCorrect / (numCorrect + numWrong) * 100.0;
-  printf("Percentage Test Cases passed: %.2d\n", percentCorrect);
+  printf("Percentage Test Cases passed: %.2f\n", percentCorrect);
 
   return 0;
 
