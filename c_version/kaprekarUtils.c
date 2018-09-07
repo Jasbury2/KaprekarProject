@@ -36,14 +36,14 @@ long first, second;
 
   int i;
   //compute the square
-  square = n * (long);
+  square = n * (long) n;
   //compute the number of digits of the square
   numDigits = (int) log10(n) + 1;
   modulus = 0;
   first, second;
 
   //for each possible "split" of the square...
-  for(i=1; i<=numberOfDigits; i++) {
+  for(i=1; i<=numDigits; i++) {
     //increase the modulus by a factor of 10
     modulus *= 10;
 
