@@ -24,17 +24,23 @@
  */
 int main (isKaprekar(int n)) {
 
+long square;
+int numDigits;
+long modulus;
+long first, second;
+
+
   if(n < 1) {
     return 0;
   }
 
   int i;
   //compute the square
-  long square = n * (long);
+  square = n * (long);
   //compute the number of digits of the square
-  int numDigits = (int) log10(n) + 1;
-  long modulus = 0;
-  long first, second;
+  numDigits = (int) log10(n) + 1;
+  modulus = 0;
+  first, second;
 
   //for each possible "split" of the square...
   for(i=1; i<=numberOfDigits; i++) {
