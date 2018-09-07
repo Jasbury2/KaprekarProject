@@ -22,7 +22,7 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar Number,
  * <code>false</code> otherwise.
  */
-int main isKaprekar(int n) {
+int isKaprekar(int n) {
 
 long square;
 int numDigits;
