@@ -44,8 +44,8 @@ int main(int argc, char **argv) {
   printf("Percentage Test Cases passed: %.2d\n", percentCorrect);
 
   return 0;
-}
 
+}
 static int contains(int arr[], int n, int key) {
   int i;
   for(i=0; i<n; i++) {
